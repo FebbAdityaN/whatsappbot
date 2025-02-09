@@ -10,7 +10,6 @@ const consolefy = new Consolefy();
 const moment = require("moment-timezone")
 const fs = require("fs");
 const filetype = require("file-type");
-const { Sticker, StickerTypes } = require("wa-sticker-formatter");
 const { upload } = require("./lib/upload");
 const { sendMediaAsSticker } = require('./lib/sticker');
 
