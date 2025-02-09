@@ -21,8 +21,6 @@ Catatan Penting: Menjalankan menggunakan Termux dapat memakan memori yang cukup 
 
 ## Cara Install
 
-**Catatan:** `npm install --platform=linux --legacy-peer-deps sharp` hanya untuk pengguna Termux!
-
 Ikuti langkah-langkah berikut untuk menginstall `whatsappbot`:
 ```bash
 git clone https://github.com/FebbAdityaN/whatsappbot
@@ -30,7 +28,7 @@ cd whatsappbot
 npm install --platform=linux --legacy-peer-deps sharp
 npm i
 ```
-
+**Catatan:** `npm install --platform=linux --legacy-peer-deps sharp` hanya untuk pengguna Termux!
 ### Konfigurasi
 
 Dilanjutkan dengan Konfigurasi.
