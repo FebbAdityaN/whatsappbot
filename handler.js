@@ -79,8 +79,6 @@ Pull Request? Ketik: ${prefix}script
 				try {
 					let buffer = await ctx.msg.media.toBuffer() || await ctx.quoted.media.toBuffer();
 					if (!buffer) return ctx.reply('❌ Reply ke media atau jadikan sebagai caption.');
-					let seconds = ctx.msg.message.videoMessage ? ctx.msg.message.videoMessage.seconds : ctx.quoted.videoMessage.seconds
-					if (seconds > 10) return ctx.reply('Durasi untuk video maksimal 10 detik!')
 					let bufferType = await filetype.fromBuffer(buffer);
 					if (ctx.args.length && bufferType?.ext !== 'mp4') {
 						let uploaded = await upload(buffer);
