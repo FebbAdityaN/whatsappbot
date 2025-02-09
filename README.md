@@ -1,17 +1,31 @@
 # WhatsApp Bot dengan Lib dari @mengkodingan/ckptw
 
-> **Catatan:** Skrip ini tidak dapat dijalankan menggunakan Termux. Skrip ini mungkin tidak akan terlalu sering di-update, karena skrip ini ditujukan hanya untuk base dasar dari Library yang digunakan.
+> **Catatan:** Skrip ini tidak dapat dijalankan menggunakan Termux. Skrip ini mungkin tidak akan terlalu sering di-update, karena tergantung mood hehe.
+
+> **Pengguna Termux:** Skrip ini seharusnya tidak dapat dijalankan di Termux karena menggunakan module Sharp, tapi ada cara untuk menginstallnya, silahkan lihat dibawah.
 
 ## Deskripsi
 
-`whatsappbot` adalah Bot WhatsApp yang menggunakan library dari [@mengkodingan/ckptw](https://github.com/mengkodingan/ckptw). Fitur yang tersedia hanya Eval & Sticker, dikarenakan ini hanyalah untuk Base Dasar seperti yang tadi disebutkan.
+`whatsappbot` adalah Bot WhatsApp yang menggunakan library dari [@mengkodingan/ckptw](https://github.com/mengkodingan/ckptw). Fitur yang tersedia Sticker, Eval dan Game Hangman.
+
+## Install Untuk Termux
+Jika kamu menggunakan Termux wajib untuk mengikuti langkah ini, jika tidak menggunakan termux lewati langkah ini, langsung ke `Cara Install`
+```bash
+apt update && apt upgrade
+apt install libvips
+apt install python3
+```
+Jika sudah terinstall semua langsung ke `Cara Install`
+Catatan Penting: Menjalankan menggunakan Termux dapat memakan memori yang cukup besar, tetap disarankan untuk menggunakan seperti Vps dan semacamnya.
 
 ## Cara Install
 
+**Catatan:** `npm install --platform=linux --legacy-peer-deps sharp` hanya untuk pengguna Termux!
 Ikuti langkah-langkah berikut untuk menginstall `whatsappbot`:
 ```bash
 git clone https://github.com/FebbAdityaN/whatsappbot
 cd whatsappbot
+npm install --platform=linux --legacy-peer-deps sharp
 npm i
 ```
 
@@ -57,7 +71,7 @@ Jika kamu menemukan Error atau ingin menambahkan fitur baru, jangan ragu untuk m
 
 ### Best Regards
 
-> Skrip ini terinspirasi dari [JastinXyz/cukuftawu](https://github.com/JastinXyz/cukuftawu). Skrip ini adalah versi JavaScript nya, tetapi Command disini saya buat menggunakan `Switch Case` tidak menggunakan Plugin(1 File 1 Cmd), agar semua Command berada dalam satu file.
+> Skrip ini terinspirasi dari [JastinXyz/cukuftawu](https://github.com/JastinXyz/cukuftawu). Skrip ini adalah versi JavaScript nya, tetapi Command disini saya buat menggunakan `Switch Case`
 
 ## Lisensi
 
