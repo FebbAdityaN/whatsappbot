@@ -16,11 +16,13 @@ apt install libvips
 apt install python3
 ```
 Jika sudah terinstall semua langsung ke `Cara Install`
+
 Catatan Penting: Menjalankan menggunakan Termux dapat memakan memori yang cukup besar, tetap disarankan untuk menggunakan seperti Vps dan semacamnya.
 
 ## Cara Install
 
 **Catatan:** `npm install --platform=linux --legacy-peer-deps sharp` hanya untuk pengguna Termux!
+
 Ikuti langkah-langkah berikut untuk menginstall `whatsappbot`:
 ```bash
 git clone https://github.com/FebbAdityaN/whatsappbot
