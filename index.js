@@ -57,6 +57,7 @@ nocache('./handler', module => consolefy.success('[ WHATSAPP BOT ]  ' + `"${modu
 
 bot.ev.on(Events.MessagesUpsert, (m, ctx) => {
 	var msg = ctx._msg
+	global.conn = ctx
 	try { if (msg.message.messageContextInfo) delete msg.message.messageContextInfo } catch { }
 	require('./handler')(msg, ctx, m, bot)
 })
