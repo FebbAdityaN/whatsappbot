@@ -1,33 +1,19 @@
 # WhatsApp Bot dengan Lib dari @mengkodingan/ckptw
 
-> **Catatan:** Skrip ini tidak dapat dijalankan menggunakan Termux. Skrip ini mungkin tidak akan terlalu sering di-update, karena tergantung mood hehe.
-
-> **Pengguna Termux:** Skrip ini seharusnya tidak dapat dijalankan di Termux karena menggunakan module Sharp, tapi ada cara untuk menginstallnya, silahkan lihat dibawah.
+> **Catatan:** Skrip ini mungkin tidak akan terlalu sering di-update, karena tergantung mood hehe.
 
 ## Deskripsi
 
 `whatsappbot` adalah Bot WhatsApp yang menggunakan library dari [@mengkodingan/ckptw](https://github.com/mengkodingan/ckptw). Fitur yang tersedia Sticker, Eval dan Game Hangman.
 
-## Install Untuk Termux
-Jika kamu menggunakan Termux wajib untuk mengikuti langkah ini, jika tidak menggunakan termux lewati langkah ini, langsung ke `Cara Install`
-```bash
-apt update && apt upgrade
-apt install libvips
-apt install python3
-```
-Jika sudah terinstall semua langsung ke `Cara Install`
-
-Catatan Penting: Menjalankan menggunakan Termux dapat memakan memori yang cukup besar, tetap disarankan untuk menggunakan seperti Vps dan semacamnya.
-
 ## Cara Install
 
 Ikuti langkah-langkah berikut untuk menginstall `whatsappbot`:
 
-**Catatan:** `npm install --platform=linux --legacy-peer-deps sharp` hanya untuk pengguna Termux!
 ```bash
+apt install ffmpeg
 git clone https://github.com/FebbAdityaN/whatsappbot
 cd whatsappbot
-npm install --platform=linux --legacy-peer-deps sharp
 npm i
 ```
 ### Konfigurasi
